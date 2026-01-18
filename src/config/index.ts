@@ -5,7 +5,7 @@ export const SITE_CONFIG: SiteConfig = {
   title: "WORK IN PROGRESS",
   author: "Zhonglin Huang",
   description:
-    "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
+    "TBD",
   lang: "en",
   siteLogo: `${import.meta.env.BASE_URL}alejandro-small.jpg`,
   navLinks: [
@@ -26,7 +26,7 @@ export const SITE_CONFIG: SiteConfig = {
 
 export const SITE_CONTENT: SiteContent = {
   hero: {
-    name: "Alejandro Múnez",
+    name: "WORK IN PROGRESS",
     specialty: "Mobile & Web Developer",
     summary:
       "Developer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
