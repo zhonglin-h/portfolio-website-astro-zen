@@ -2,8 +2,8 @@ import type { SiteConfig, SiteContent } from "../types";
 import.meta.env.BASE_URL;
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Alejandro Múnez — Mobile & Web Developer",
-  author: "Alejandro Múnez Cuntez",
+  title: "WORK IN PROGRESS",
+  author: "Zhonglin Huang",
   description:
     "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
   lang: "en",
@@ -20,7 +20,7 @@ export const SITE_CONFIG: SiteConfig = {
     { text: "Youtube", href: "https://github.com/immois/astro-zen" },
     { text: "Dribbble", href: "https://github.com/immois/astro-zen" },
   ],
-  socialImage: "/zen-og.png",
+  socialImage: `${import.meta.env.BASE_URL}zen-og.png`,
   canonicalURL: "https://astro-zen.vercel.app",
 };
 
@@ -69,21 +69,21 @@ export const SITE_CONTENT: SiteContent = {
       summary: "A music streaming app that emulates Spotify's core features.",
       linkPreview: "/",
       linkSource: "https://github.com/immois/astro-zen",
-      image: "/spotifu.png",
+      image: `${import.meta.env.BASE_URL}spotifu.png`,
     },
     {
       name: "Shopp App",
       summary: "An e-commerce platform that replicates Shopify's key features.",
       linkPreview: "/",
       linkSource: "https://github.com/immois/astro-zen",
-      image: "/shopify-clon.png",
+      image: `${import.meta.env.BASE_URL}shopify-clon.png`,
     },
     {
       name: "ClonTagram",
       summary: "A social network that replicates the features of Instagram",
       linkPreview: "/",
       linkSource: "https://github.com/immois/astro-zen",
-      image: "/clone-ig.png",
+      image: `${import.meta.env.BASE_URL}clone-ig.png`,
     },
   ],
   about: {
@@ -92,7 +92,7 @@ export const SITE_CONTENT: SiteContent = {
 
       Over the years, I’ve honed my skills in building robust, user-friendly applications that not only meet the needs of users but also push the boundaries of what’s possible. My projects range from innovative mobile applications to responsive web designs, all with a focus on performance, security, and scalability.
     `,
-    image: "/alejandro-big.jpg",
+    image: `${import.meta.env.BASE_URL}alejandro-big.jpg`,
   },
 };
 
