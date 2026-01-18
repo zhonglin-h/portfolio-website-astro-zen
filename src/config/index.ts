@@ -1,4 +1,5 @@
 import type { SiteConfig, SiteContent } from "../types";
+import.meta.env.BASE_URL;
 
 export const SITE_CONFIG: SiteConfig = {
   title: "Alejandro Múnez — Mobile & Web Developer",
@@ -6,7 +7,7 @@ export const SITE_CONFIG: SiteConfig = {
   description:
     "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
   lang: "en",
-  siteLogo: "/alejandro-small.jpg",
+  siteLogo: `${import.meta.env.BASE_URL}alejandro-small.jpg`,
   navLinks: [
     { text: "Experience", href: "#experience" },
     { text: "Projects", href: "#projects" },
